@@ -1,7 +1,8 @@
-## Name - Soumyajit Chakraborty 
-## place - kolkata
-## date - 10 / 08 / 2020
+''' 
+Edits by: adderlph, from an original program written by: 
 
+
+'''
 import cv2 as cv
 face_cascade = cv.CascadeClassifier('..\libs\haarcascade_frontalface_default.xml')
 face_cascade_eye = cv.CascadeClassifier('..\libs\haarcascade_eye.xml')
